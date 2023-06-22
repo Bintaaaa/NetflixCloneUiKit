@@ -18,6 +18,8 @@
 		789119B929F3C5E900257183 /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789119B829F3C5E900257183 /* UpComingViewController.swift */; };
 		789119BB29F3C60A00257183 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789119BA29F3C60A00257183 /* DownloadViewController.swift */; };
 		789119C429F3CEA300257183 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789119C329F3CEA300257183 /* CollectionViewTableViewCell.swift */; };
+		78CC64F02A42DEB500995DDE /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC64EF2A42DEB500995DDE /* APICaller.swift */; };
+		78CC64F22A42E33000995DDE /* TrenddingMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC64F12A42E33000995DDE /* TrenddingMovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		789119B829F3C5E900257183 /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
 		789119BA29F3C60A00257183 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		789119C329F3CEA300257183 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		78CC64EF2A42DEB500995DDE /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		78CC64F12A42E33000995DDE /* TrenddingMovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrenddingMovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		789119BE29F3CDA100257183 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				78CC64F12A42E33000995DDE /* TrenddingMovieResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		789119C029F3CDB400257183 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				78CC64EF2A42DEB500995DDE /* APICaller.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 			files = (
 				789119B729F3C5CF00257183 /* SearchViewController.swift in Sources */,
 				789119A429F3BBB200257183 /* MainTabBarViewController.swift in Sources */,
+				78CC64F22A42E33000995DDE /* TrenddingMovieResponse.swift in Sources */,
 				789119C429F3CEA300257183 /* CollectionViewTableViewCell.swift in Sources */,
+				78CC64F02A42DEB500995DDE /* APICaller.swift in Sources */,
 				7808E6B929FA313F0024E4E8 /* HeroHeaderUIView.swift in Sources */,
 				789119A029F3BBB200257183 /* AppDelegate.swift in Sources */,
 				789119BB29F3C60A00257183 /* DownloadViewController.swift in Sources */,
